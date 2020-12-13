@@ -1,0 +1,32 @@
+.jumbotron{
+    background-color: #1B9CFC;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.brand-icon{
+    font-size: 70px;
+    margin-right: 10px;
+}
+.beers{
+    display:flex;
+    justify-items: space-around;
+    flex-wrap: wrap;
+    column-count: 2;
+    padding: 20px;
+    width: 100%;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+
+/* .recipe Card{
+width: auto!important;
+} */
+.MuiPaper-root{
+    margin: 10px;
+    max-width: 50%;
+    border-radius: 10px!important;
+
+}
