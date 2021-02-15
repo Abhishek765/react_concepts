@@ -1,0 +1,39 @@
+.Form_field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px;
+    background-color: rgb(104, 140, 230);
+    align-items: center;
+}
+
+.inputField {
+    width: 70%;
+    margin: 20px;
+    padding: 17px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #fff;
+}
+.btnStyle {
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(67, 27, 213);
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(67, 27, 213);
+}
+
+.showDataStyle {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(104, 140, 230);
+    bottom: 10;
+}
+
+.showDataStyle p {
+    color: #fff;
+}
